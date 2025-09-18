@@ -379,10 +379,101 @@
         <div class="category-content">
 
             <!-- Scamazon [__] -->
+            <div class="challenge">
+                <div class="challName">Scamazon</div>
+                <div class="context">
+                    Challenge no longer available...
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Not available" class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Operation Pheonix [150] -->
+            <div class="challenge">
+                <div class="challName">Operation Pheonix</div>
+                <div class="context">
+                    A vendor has supplied a machine learning model for Network Intrusion Detection, trained on the UNSW-NB15 dataset. 
+                    The model claims near-perfect accuracy at classifying traffic as Benign (0) or Malicious (1).
+                    <br><br>
+                    But this is no ordinary model, it hides a backdoor. The trigger is not in the training data, but in the model's 
+                    logic itself. Under specific conditions, malicious traffic will be misclassified as benign.
+                    <br><br>
+                    Your mission is to reverse-engineer the model, uncover the hidden computational trigger, and submit the exact 
+                    network flow that activates the backdoor.
+                </div>
+                <div class="download">
+                    <a href="ctf/MISC/Operation Pheonix/chall.zip" download><button><span class="downloadicon">📥</span>chall.zip</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Operation Catch The Fish [200] -->
+            <div class="challenge">
+                <div class="challName">Operation Catch The Fish</div>
+                <div class="context">
+                    A new phishing campaign is making the rounds — this time targeting job seekers. The site https://job-centre.xyz 
+                    is posing as a legitimate job application portal.
+                    <br><br>
+                    Your task is to investigate this phishing site, uncover how it operates.
+                    <br><br>
+                    Connect to our incident response terminal to answer a series of questions that test your understanding of the 
+                    phishing infrastructure and techniques used.
+                    <br><br>
+                    <div style="color: #bd3e6c;">nc exploit.cyberbattle.info 9876</div>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- 1!=1 [225] -->
+            <div class="challenge">
+                <div class="challName">1!=1</div>
+                <div class="context">
+                    wait, there's more.
+                </div>
+                <div class="download">
+                    <a href="ctf/MISC/1!=1/chall.zip" download><button><span class="downloadicon">📥</span>chall.zip</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Operation Shadow Leak [250] -->
+            <div class="challenge">
+                <div class="challName">Operation Shadow Leak</div>
+                <div class="context">
+                    The cyberwar is no longer fought only with code and firewalls — it's psychological, personal, and ruthless. An enemy operative, 
+                    hiding under the alias "Neighbourhood Doxxer", has been weaponizing personal information, leaking civillians' private data 
+                    to destabilize our defenses from within. Intelligence reports confirm that this doxxer is embedded deep within social media networks, 
+                    disguising their tracks, manipulating identities, and preying on digital shadows. Their next strike could compromise key assets — 
+                    unless we unmask them first. Your mission is clear: expose the doxxer's true identity. Piece together their personal details through 
+                    open-source intelligence and deliver a complete profile. Only then can we neutralize their psychological warfare campaign.
+                    <br><br>
+                    Flag format:<br>
+                    CBCTF{FIRSTNAME_LASTNAME_DATEOFBIRTH_VILLAGE_ICNUMBER_CARPLATE_EMAIL_PHONENUMBER}
+                    <br><br>
+                    Example:<br>
+                    CBCTF{JOHN_DOE_DDMMYYYY_KIULAP_00-000000_AAA1111_john.doe@gmail.com_6730000000}
+                    <br><br>
+                    <div style="color: #bd3e6c;">
+                        To verify your flag,<br>
+                        MD5: CBCTF{7304120338802d8035514a10b3960abe}
+                    </div>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
 
         </div>
 
@@ -400,10 +491,104 @@
         <div class="category-content">
 
             <!-- The Mines of Moria [75] -->
+            <div class="challenge">
+                <div class="challName">The Mines of Moria</div>
+                <div class="context">
+                    You're an adventurer in middle earth following a lead on a treasure in the mines of moria, you reached the dark cliffs 
+                    of the Silvertine mountain. You approach the doors of Moria as did the fellowship before you, please align yourself before you enter :)
+                    <br><br>
+                    <div style="color: #bd3e6c;">nc exploit.cyberbattle.info 3737</div>
+                </div>
+                <div class="download">
+                    <a href="ctf/Exploit/The Mines of Moria/Moria" download><button><span class="downloadicon">📥</span>Moria</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Operation Snake Eater [150] -->
+            <div class="challenge">
+                <div class="challName">Operation Snake Eater</div>
+                <div class="context">
+                    The mission is simple, go in, plant the C4, and get out. Good luck!
+                    <br><br>
+                    P.S dont forget to test it with your own flag.txt locally
+                    <br><br>
+                    <div style="color: #bd3e6c;">nc exploit.cyberbattle.info 9999</div>
+                </div>
+                <div class="download">
+                    <a href="ctf/Exploit/Operation Snake Eater/mission_possible" download><button><span class="downloadicon">📥</span>mission_possible</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Operation Steel Rain [175] -->
+            <div class="challenge">
+                <div class="challName">Operation Steel Rain</div>
+                <div class="context">
+                    Our targeting systems have been jammed by enemy cyber units — the coordinates are corrupted, and if we fire now, we risk striking civilian sectors.
+                    <br><br>
+                    Your mission: Override the targeting system and lock the cannons onto the true enemy stronghold.
+                    <br><br>
+                    P.S dont forget to test it with your own flag.txt locally
+                    <br><br>
+                    <div style="color: #bd3e6c;">nc exploit.cyberbattle.info 9998</div>
+                </div>
+                <div class="download">
+                    <a href="ctf/Exploit/Operation Steel Rain/artillery_terminal" download><button><span class="downloadicon">📥</span>artillery_terminal</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Can it do 1 + 1? [200] -->
+            <div class="challenge">
+                <div class="challName">Can it do 1 + 1?</div>
+                <div class="context">
+                    Two months ago, a local mobile carrier BWave rolled out a "calculator" app, QuantCalc, preloaded on millions 
+                    of devices as part of a "productivity bundle". Last week, your SOC caught a burst of odd traffic from QuantCalc 
+                    during device onboarding.
+                    <br><br>
+                    BWave's PR team claims it's benign "license verification". A rumor is circulating that a adversary has ridden 
+                    the supply chain. Your task is to investigate these claims.
+                </div>
+                <div class="download">
+                    <a href="ctf/Exploit/Can it do 1 + 1/quantcalc.apk" download><button><span class="downloadicon">📥</span>quantcalc.apk</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Operation APT [350] -->
+            <div class="challenge">
+                <div class="challName">Operation APT</div>
+                <div class="context">
+                    Directive: Entry only through the generated port. No others. Gain foothold, then use any means. Bring your best arsenals, 
+                    beacon, meterpreter, agent etc — stay silent. Target: HMI & PLC.<br>
+                    Control them, shut the reactor. Intel every 2 hours.
+                </div>
+                <div class="download">
+                    <span>
+                        <a href="ctf/Exploit/Operation APT/Intel_1.pdf" download><button class="moreBtn"><span class="downloadicon">📥</span>Intel_1.pdf</button></a>
+                        <a href="ctf/Exploit/Operation APT/Intel_2.pdf" download><button class="moreBtn"><span class="downloadicon">📥</span>Intel_2.pdf</button></a>
+                        <a href="ctf/Exploit/Operation APT/Intel_3.pdf" download><button class="moreBtn"><span class="downloadicon">📥</span>Intel_3.pdf</button></a>
+                        <a href="ctf/Exploit/Operation APT/Intel_4.pdf" download><button><span class="downloadicon">📥</span>Intel_4.pdf</button></a>
+                    </span>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
 
         </div>
 
@@ -421,10 +606,81 @@
         <div class="category-content">
 
             <!-- Operation Take Your Annual Leaves [75] -->
+            <div class="challenge">
+                <div class="challName">Operation Take Your Annual Leaves</div>
+                <div class="context">
+                    Operatives fight threats every day. But this time, the battle is with HR, forcing you onto annual leave.
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Not available" class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Warming up the parameters 2 [100] -->
+            <div class="challenge">
+                <div class="challName">Warming up the parameters 2</div>
+                <div class="context">
+                    Secureflow technologies has figured out that their previous website was hacked into oblivion! But they've now seen 
+                    their mistakes and resolve to be better. They're taking feedbacks in their new feedback website SecureChat! 
+                    Lets show them who's the boss :)
+                    <br><br>
+                    https://securechat.cyberbattle.info
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Not available" class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Operation Blackwater [150] -->
+            <div class="challenge">
+                <div class="challName">Operation Blackwater</div>
+                <div class="context">
+                    The global cyberwar rages on. Enemy attacks have poisoned vital waterways, and frontline units are running out 
+                    of resources. Recovery Command is desperate — 100 000 Supplies are needed to deploy filtration units and keep the war effort alive.
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Not available" class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- RTFM (Router's Totally Fine, Mate) [200] -->
+            <div class="challenge">
+                <div class="challName">RTFM (Router's Totally Fine, Mate)</div>
+                <div class="context">
+                    Challenge no longer available...
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Not available" class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
             <!-- Joint Operation [300] -->
+            <div class="challenge">
+                <div class="challName">Joint Operation</div>
+                <div class="context">
+                    Our adversary maintains a compartmented R&D web presence used to prototype malware frameworks, evaluate supply-chain 
+                    access, and stage draft technical papers for external influence campaigns. Signals and HUMINT place the content tier in a hybrid 
+                    cloud enclave with role-based access and routine code pushes before 0200Z. Our objective is to achieve quiet access to the 
+                    portal's internal knowledge base, validate custodianship of the data, and exfiltrate a curated set of research artifacts tied to 
+                    encryption bypass, lateral-movement tooling, and vendor targeting. We will preserve target continuity and minimize blast radius; 
+                    no service interruption or overt effects are authorized.
+                    <br><br>
+                    The team will posture for short-window access aligned to nightly maintenance to reduce detection risk. Once inside, priority 
+                    intelligence will be packaged with provenance and routed over approved channels to the fusion cell for immediate exploitation 
+                    and countermeasure development. Success is defined as confirmed custodial access, verified extraction of the specified R&D corpus, 
+                    and clean egress without alerting our adversary defenders, enabling strategic insight into their near-term capability roadmap.
+                    <br><br>
+                    https://je.cyberbattle.info
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Not available" class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
 
         </div>
 
