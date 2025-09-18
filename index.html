@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CBCTF25 Finals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="title">
+    <h1>Cyber Battle 2025 Finals</h1>
+    <a class="repoLink" href="https://github.com/cyberc0dex/cbctf25-quali" target="_blank">github.com/cyberc0dex/cbctf25-finals</a>
+</div>
+
+<!--  CRYPTOGRAPHY  -->
+<div class="wrapper">
+    <div class="category">
+        <h2 class="accordionn" onclick="toggleCategory(this)">
+            <span class="arrow">▸</span> Cryptography
+        </h2>
+
+        <div class="category-content">
+
+            <!-- Not Your Ordinary Fibonacci [75] -->
+            <div class="challenge">
+                <div class="challName">Not Your Ordinary Fibonacci</div>
+                <div class="context">
+                    An adversary has been ripping through small fintechs, boasting that "classical math is all I need". 
+                    We finally snagged one of his test boxes and pulled a single ciphertext plus a generator script from his toolkit.
+                    He taunted us on the way out:
+                    <br><br>
+                    "This isn't your ordinary Fibonacci..."
+                    <br><br>
+                    Your job is to prove he's not as clever as he thinks.
+                </div>
+                <div class="download">
+                    <a href="ctf/Crypto/Not Your Ordinary Fibonacci/chall.zip" download><button><span class="downloadicon">📥</span>chall.zip</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- As if its your last shared secret key [150] -->
+            <div class="challenge">
+                <div class="challName">As if its your last shared secret key</div>
+                <div class="context">
+                    <div style="color: #bd3e6c;">https://asif.cyberbattle.info/</div>
+                </div>
+                <div class="download">
+                    <a href="ctf/Crypto/As if its your last shared secret key/As_If_Its_Your_Last_Shared_Secure_Key.pdf" download><button><span class="downloadicon">📥</span>As_If_Its_Your_Last_Shared_Secure_Key.pdf</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- Quantum Ransomware [175] -->
+            <div class="challenge">
+                <div class="challName">Quantum Ransomware</div>
+                <div class="context">
+                    Our Advesary has developed an advanced ransomware method. Our intelligence unit has manage to exfiltrate one of their prototypes,
+                    you are tasked to analyze and understand the ransomware mechanism before the weapon is used against us.
+                </div>
+                <div class="download">
+                    <a href="ctf/Crypto/Quantum Ransomware/chall.zip" download><button><span class="downloadicon">📥</span>chall.zip</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- The Fault In Our KEMs [200] -->
+            <div class="challenge">
+                <div class="challName">The Fault In Our KEMs</div>
+                <div class="context">
+                    Our signals intelligence has intercepted an enemy transmission believed to be encrypted with a quantum-resistant cryptosystem: ML-KEM-512 (NIST FIPS 203)
+                    combined with AES-GCM. The enemy used this to encrypt the flag, but our cyber operatives suspect they may carelessly used a hardcoded seed in their deployment.
+                    That's not very l33t of them! Recover the flag.
+                </div>
+                <div class="download">
+                    <a href="ctf/Crypto/The Fault In Our KEMs/chall.zip" download><button><span class="downloadicon">📥</span>chall.zip</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- SHHH [250] -->
+            <div class="challenge">
+                <div class="challName">SHHH</div>
+                <div class="context">
+                    SHHH!! Keep the noise down. I am trying to Learn PQC.
+                    <br><br>
+                    <div style="color: #bd3e6c;">nc exploit.cyberbattle.info 12345</div>
+                </div>
+                <div class="download">
+                    <a href="ctf/Crypto/SHHH/chall.py" download><button><span class="downloadicon">📥</span>chall.py</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!--  NETWORK  -->
+<div class="wrapper">
+    <div class="category">
+        <h2 class="accordionn" onclick="toggleCategory(this)">
+            <span class="arrow">▸</span> Network
+        </h2>
+
+        <div class="category-content">
+            
+            <!-- Eavesd [75] -->
+            <div class="challenge">
+                <div class="challName">Eavesd</div>
+                <div class="context">
+                    During a cyber conflict, a file is intercepted from communications between 
+                    two employees of the same intelligence agency. At first it seems routine, 
+                    but inspection reveals it may contain hidden data — possibly instructions 
+                    or intelligence masked to avoid detection. A cyber forensics team is tasked 
+                    with analyzing the file. They must extract the concealed information, confirm 
+                    whether it's an inside job or enemy infiltration, and ensure it isn't booby-trapped 
+                    with malware. What looks like a harmless transfer could hold the key to the adversary's 
+                    next strike — or trigger a digital trap if handled incorrectly.
+                </div>
+                <div class="download">
+                    <a href="ctf/Network/Eavesd/eavesssss.pcap" download><button><span class="downloadicon">📥</span>eavesssss.pcap</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- Operation Shadowghost [75] -->
+            <div class="challenge">
+                <div class="challName">Operation Shadowghost</div>
+                <div class="context">
+                    You are a SOC analyst investigating a suspected cyberwarfare incident. You've been provided 
+                    with Suricata logs (eve.json) containing full TLS, HTTP, and DNS traffic, mixed with normal 
+                    network traffic.
+                    <br><br>
+                    Your task: Identify the malicious session by extracting:<br>
+                    1. The JA3 fingerprint of the TLS connection<br>
+                    2. The source IP that download the malicious file<br>
+                    3. The HTTP path used to download the malicious file
+                    <br><br>
+                    Combine these three values with | and submit as the flag.
+                    <br><br>
+                    Flag format: CBCTF{JA3|SRCIP|HTTPPATH}
+                </div>
+                <div class="download">
+                    <a href="ctf/Network/Operation Shadowghost/eve.json" download><button><span class="downloadicon">📥</span>eve.json</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- Goldmine [150] -->
+            <div class="challenge">
+                <div class="challName">Goldmine</div>
+                <div class="context">
+                    In the middle of escalating cyberwar tensions, a major defense contractor — Guardian01 Defense Systems — 
+                    suffered a network breach. Intelligence agencies believe the attacker stole their crown jewel project file, 
+                    codenamed Goldmine, from their internal R&D servers. Your task: Analyze the intercepted network traffic 
+                    and recover the stolen asset before it falls into enemy hands.
+                </div>
+                <div class="download">
+                    <a href="ctf/Network/Goldmine/Goldmine.pcap" download><button><span class="downloadicon">📥</span>Goldmine.pcap</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- Operation Blackout [200] -->
+            <div class="challenge">
+                <div class="challName">Operation Blackout</div>
+                <div class="context">
+                    Your country's energy authority has reported unsual behavior on a workstation inside the grid management network. 
+                    This comes at a time of rising regional tensions, where cyber operations against critical infrastructure are a 
+                    growing concern. The workstation in question is believed to have been the entry point for a potential cyberwar-style intrusion. 
+                    Wazuh has already collected Sysmon and Security logs from the system. 
+                    <br><br>
+                    Your task as a SOC analyst is to:<br>
+                    • Identify which processes, services, and files were involved.<br>
+                    • Determine what actions could lead to data theft or disruption of grid operations.<br>
+                    • Assess whether this incident could represent an attempted blackout scenario.
+                    <br><br>
+                    <div style="color: #bd3e6c;">nc exploit.cyberbattle.info 1337</div>
+                </div>
+                <div class="download">
+                    <a href="https://drive.google.com/file/d/1lM1m3L19gFR1f5Vmk_ySBM9Y6hlpjuny/view?usp=drive_link" download><button><span class="downloadicon">📥</span>operationblackout.tar.gz</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- Operation Silent Lock [225] -->
+            <div class="challenge">
+                <div class="challName">Operation Silent Lock</div>
+                <div class="context">
+                    In the middle of escalating cyber tensions between rival states, your Security Operations Center (SOC) 
+                    has been targeted. A hostile adversary group — codenamed Black Hydra — has launced a crippling ransomware 
+                    campaign against key infrastructure, aiming to disrupt government operations and erode public trust. 
+                    The attackers didn't just strike randomply; this is digital warfare disguised as cybercrime. 
+                    Their ransomware payload was deployed through carefully orchestrated intrusion methods.
+                    <br><br>
+                    You are the lead analyst in charge of triage using Wazuh logs and alerts. Intelligence agencies believe 
+                    that the infection chain may reveal not just how the ransomware spread, but also clues to Black Hydra's 
+                    larger war strategy. Every log event, every alert, and every suspicious process is a breadcrumb leading 
+                    you closer to exposing their playbook.
+                </div>
+                <div class="download">
+                    <a href="https://drive.google.com/file/d/1MMRL5w_La-9J999o8UqZAFkI--Gzh2Hj/view?usp=drive_link" download><button><span class="downloadicon">📥</span>operationransom.tar.gz</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!--  FORENSIC  -->
+<div class="wrapper">
+    <div class="category">
+        <h2 class="accordionn" onclick="toggleCategory(this)">
+            <span class="arrow">▸</span> Forensics
+        </h2>
+
+        <div class="category-content">
+
+            <!-- Operation BREACH [75] -->
+            <div class="challenge">
+                <div class="challName">Operation BREACH</div>
+                <div class="context">
+                    You are a cybersecurity analyst for the Department of Homeland Security's Cybersecurity 
+                    and Infrastructure Security Agency (CISA). GridSecure Industries, which operates critical 
+                    power grid infrastructure serving 2.3 million citizens across the Northeastern United States, 
+                    has reported a suspected nation-state cyberattack.
+                    <br><br>
+                    Your Mission: Analyze the forensic evidence to determine the scope of the Iron Storm attack, 
+                    identify their specific activities, and answer all questions correctly to map their complete operation.
+                    <br><br>
+                    <div style="color: #bd3e6c;">nc exploit.cyberbattle.info 1212</div>
+                </div>
+                <div class="download">
+                    <span><a href="ctf/Forensics/Operation BREACH/mission_details.txt" download><button class="moreBtn"><span class="downloadicon">📥</span>mission_details.txt</button></a><a href="ctf/Forensics/Operation BREACH/filesystem.zip" download><button><span class="downloadicon">📥</span>filesystem.zip</button></a></span>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- The Fabric of the Cosmos [125] -->
+            <div class="challenge">
+                <div class="challName">The Fabric of the Cosmos</div>
+                <div class="context">
+                    An unknown paramilitary group has stolen a prototype biotech weapon from a high-security 
+                    research facility. Intelligence suggests that the weapon is hidden in a rural location, 
+                    ready for activation in the neighbourhood. Before going dark, one of our undercover agents 
+                    managed to intercept the zip files and upload to our secure server. However, our analysts 
+                    discovered and closely examined that the zip files contain only audio track files. Your mission: 
+                    Analyze the files and retrieve the coordinates and radius that could be used to prevent the activation of the weapon.
+                </div>
+                <div class="download">
+                    <a href="https://drive.google.com/file/d/1v1KTx3R8SJYFFr8X6pOh8_iG0IefWk13/view?usp=drive_link" download><button><span class="downloadicon">📥</span>chall.zip</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- In Browsers We Trust [150] -->
+            <div class="challenge">
+                <div class="challName">In Browsers We Trust</div>
+                <div class="context">
+                    A browser profile full of hidden clues has landed in your hands. Every click, tab, bookmark, cached page, 
+                    and saved form leaves a trail. Step into the profile, investigate the artifacts, and uncover the hidden 
+                    story they tried to bury — every artifact could hold the key to a bigger mystery.
+                    <br><br>
+                    <div style="color: #bd3e6c;">nc exploit.cyberbattle.info 5151</div>
+                </div>
+                <div class="download">
+                    <a href="https://drive.google.com/file/d/1QsSxGXe2dBtCSeS9cfLuN9omixMBJNKf/view?usp=drive_link" download><button><span class="downloadicon">📥</span>chall.zip</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- Operation EnCypher [150] -->
+            <div class="challenge">
+                <div class="challName">Operation EnCypher</div>
+                <div class="context">
+                    An Allied Cyberwarfare Digital Forensics unit has intercepted and acquired an encrypted communications webserver 
+                    used by an enemy faction. Intelligence suggests the platform was utilized to coordinate covert operations and 
+                    discreetly transfer sensitive data. You're provided with a partial server dump — Analyze it thoroughly, uncover 
+                    secret messages, and retrieve the flag shared through this compromised medium.
+                    <br><br>
+                    The enemy thinks their secrets are safe — prove them wrong. Dig deep, decrypt the lies, and bring the flag home.
+                </div>
+                <div class="download">
+                    <a href="ctf/Forensics/Operation EnCypher/webserver.zip" download><button><span class="downloadicon">📥</span>webserver.zip</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+            <!-- Operation Silent Stream [225] -->
+            <div class="challenge">
+                <div class="challName">Operation Silent Stream</div>
+                <div class="context">
+                    During an ongoing cyber conflict, a compromised workstation was seized for forensic investigation. 
+                    When analysts gained access, the machine was found with a command terminal still open — suggesting 
+                    the attacker had been actively operating on the system before it was imaged.
+                    <br><br>
+                    Your team has obtained a memory dump from this machine. Threat intel suspects that the attacker 
+                    successfully staged and exfiltrated sensitive data to a remote host at 192.168.23.1
+                    <br><br>
+                    Analyze the memory dump and find the flag that was exfiltrated.
+                    <br><br>
+                    The battlefield is memory, the weapon is knowledge, every command leaves a trail — follow it, 
+                    and the flag will be yours!
+                </div>
+                <div class="download">
+                    <a href="https://drive.google.com/file/d/13WDH_TEd0oe8ZEAoCgMn1xOU6KRGjwaQ/view?usp=drive_link" download><button><span class="downloadicon">📥</span>memory.zip</button></a>
+                </div>
+                <div class="checkFlag">
+                    <input type="text" id="challenge_[category]_[int]" placeholder="Work in progress..." class="inputDisabled" disabled>
+                    <button onclick="checkFlag('challenge_[category]_[int]')" class="btnDisabled" disabled>Submit Flag</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!--  MISC  -->
+<div class="wrapper">
+    <div class="category">
+        <h2 class="accordionn" onclick="toggleCategory(this)">
+            <span class="arrow">▸</span> Miscellaneous
+        </h2>
+
+        <div class="category-content">
+
+            <!-- Scamazon [__] -->
+            <!-- Operation Pheonix [150] -->
+            <!-- Operation Catch The Fish [200] -->
+            <!-- 1!=1 [225] -->
+            <!-- Operation Shadow Leak [250] -->
+
+        </div>
+
+    </div>
+</div>
+
+
+<!--  EXPLOIT  -->
+<div class="wrapper">
+    <div class="category">
+        <h2 class="accordionn" onclick="toggleCategory(this)">
+            <span class="arrow">▸</span> Exploit
+        </h2>
+
+        <div class="category-content">
+
+            <!-- The Mines of Moria [75] -->
+            <!-- Operation Snake Eater [150] -->
+            <!-- Operation Steel Rain [175] -->
+            <!-- Can it do 1 + 1? [200] -->
+            <!-- Operation APT [350] -->
+
+        </div>
+
+    </div>
+</div>
+
+
+<!--  WEB  -->
+<div class="wrapper">
+    <div class="category">
+        <h2 class="accordionn" onclick="toggleCategory(this)">
+            <span class="arrow">▸</span> Web
+        </h2>
+
+        <div class="category-content">
+
+            <!-- Operation Take Your Annual Leaves [75] -->
+            <!-- Warming up the parameters 2 [100] -->
+            <!-- Operation Blackwater [150] -->
+            <!-- RTFM (Router's Totally Fine, Mate) [200] -->
+            <!-- Joint Operation [300] -->
+
+        </div>
+
+    </div>
+</div>
+
+
+<div style="padding-bottom:80px;"></div>
+
+<div id="popup" class="popup"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

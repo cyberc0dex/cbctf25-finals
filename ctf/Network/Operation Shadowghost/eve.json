@@ -1,0 +1,2872 @@
+[
+  {
+    "timestamp": "2025-09-10T15:01:49.000000+08:00",
+    "flow_id": 1000000052,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 30227,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:49.000000+08:00",
+    "flow_id": 1000000112,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 23327,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:25.000000+08:00",
+    "flow_id": 1000000028,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 34509,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:59.000000+08:00",
+    "flow_id": 1000000182,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 63629,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 7190
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:19.000000+08:00",
+    "flow_id": 1000000022,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 36009,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "1004,655,544,854,861,636,840,951,380,465",
+      "version": "1.3",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:11.000000+08:00",
+    "flow_id": 1000000074,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 6984,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "601,466,1024,434,434,852,266,421,1017,580",
+      "version": "1.3",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:08.000000+08:00",
+    "flow_id": 1000000131,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 54336,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:09.000000+08:00",
+    "flow_id": 1000000192,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 5029,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "935,514,975,877,363,833,809,638,600,392",
+      "version": "1.2",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:03.000000+08:00",
+    "flow_id": 1000000126,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 38877,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "717,447,865,347,606,631,454,347,851,725",
+      "version": "1.3",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:32.000000+08:00",
+    "flow_id": 1000000095,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 15625,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "753,655,863,452,830,835,989,767,803,981",
+      "version": "1.2",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:04.000000+08:00",
+    "flow_id": 1000000187,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 20599,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 9544
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:35.000000+08:00",
+    "flow_id": 1000000098,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 21993,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 2037
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:17.000000+08:00",
+    "flow_id": 1000000080,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 38634,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "682,325,886,437,725,823,602,826,827,742",
+      "version": "1.3",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:50.000000+08:00",
+    "flow_id": 1000000173,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 5396,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:34.000000+08:00",
+    "flow_id": 1000000157,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 22623,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:34.000000+08:00",
+    "flow_id": 1000000097,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 37779,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:26.000000+08:00",
+    "flow_id": 1000000149,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 36883,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "901,550,485,506,841,416,778,838,867,574",
+      "version": "1.2",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:03.000000+08:00",
+    "flow_id": 1000000066,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 3038,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 7693
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:25.000000+08:00",
+    "flow_id": 1000000148,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 9037,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:05.000000+08:00",
+    "flow_id": 1000000128,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 46267,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "347,384,940,718,691,741,343,623,862,495",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:05.000000+08:00",
+    "flow_id": 1000000188,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 44641,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 5710
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:56.000000+08:00",
+    "flow_id": 1000000119,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 2337,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:14.000000+08:00",
+    "flow_id": 1000000077,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 16710,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "975,1013,679,625,607,268,340,445,599,410",
+      "version": "1.2",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:55.000000+08:00",
+    "flow_id": 1000000118,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 11017,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "885,649,825,837,943,406,790,452,806,735",
+      "version": "1.2",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:48.000000+08:00",
+    "flow_id": 1000000111,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 43159,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 4236
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:06.000000+08:00",
+    "flow_id": 1000000189,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 23824,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "262,368,369,834,305,582,737,779,469,892",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:09.000000+08:00",
+    "flow_id": 1000000132,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 30219,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 7397
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:43.000000+08:00",
+    "flow_id": 1000000166,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 30707,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:20.000000+08:00",
+    "flow_id": 1000000083,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 22982,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "795,918,600,896,724,703,552,955,848,635",
+      "version": "1.3",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:39.000000+08:00",
+    "flow_id": 1000000162,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 5415,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 8270
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:40.000000+08:00",
+    "flow_id": 1000000103,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 11327,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:33.000000+08:00",
+    "flow_id": 1000000156,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 21614,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 6599
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:13.000000+08:00",
+    "flow_id": 1000000016,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 7124,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:39.000000+08:00",
+    "flow_id": 1000000042,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 15748,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:12.000000+08:00",
+    "flow_id": 1000000195,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 42455,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "554,758,875,494,761,678,866,426,963,787",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:49.000000+08:00",
+    "flow_id": 1000000172,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 35144,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "test.local",
+      "rtype": "A",
+      "tx_id": 6034
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:59.000000+08:00",
+    "flow_id": 1000000062,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 21754,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "822,729,528,748,676,382,469,900,522,494",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:04.000000+08:00",
+    "flow_id": 1000000007,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 57658,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "823,827,619,411,976,800,504,477,775,799",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:24.000000+08:00",
+    "flow_id": 1000000027,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 51900,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:28.000000+08:00",
+    "flow_id": 1000000091,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 4066,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:52.000000+08:00",
+    "flow_id": 1000000175,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 15698,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "885,691,990,298,689,638,833,334,287,452",
+      "version": "1.2",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:44.000000+08:00",
+    "flow_id": 1000000047,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 28735,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:02.000000+08:00",
+    "flow_id": 1000000065,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 41712,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:12.000000+08:00",
+    "flow_id": 1000000015,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 20041,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:20.000000+08:00",
+    "flow_id": 1000000143,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 34741,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "837,412,662,601,617,552,260,394,656,620",
+      "version": "1.3",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:27.000000+08:00",
+    "flow_id": 1000000090,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 33998,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "867,805,792,952,262,928,781,354,480,415",
+      "version": "1.3",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:02.000000+08:00",
+    "flow_id": 1000000005,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 5704,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:01.000000+08:00",
+    "flow_id": 1000000124,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 32409,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "test.local",
+      "rtype": "A",
+      "tx_id": 5391
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:37.000000+08:00",
+    "flow_id": 1000000160,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 60832,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "934,876,852,943,293,303,796,865,1002,460",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:00:20.000000+08:00",
+    "flow_id": 1000000002,
+    "event_type": "dns",
+    "src_ip": "192.168.10.5",
+    "src_port": 5353,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "exfil.shadowghost.org",
+      "rtype": "A",
+      "tx_id": 1234
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:18.000000+08:00",
+    "flow_id": 1000000021,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 42450,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "544,334,917,930,937,377,339,483,718,970",
+      "version": "1.2",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:28.000000+08:00",
+    "flow_id": 1000000151,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 63156,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "816,714,513,823,963,820,782,849,673,658",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:47.000000+08:00",
+    "flow_id": 1000000170,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 12543,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:52.000000+08:00",
+    "flow_id": 1000000115,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 44175,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "554,737,713,437,778,544,876,724,965,818",
+      "version": "1.2",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:13.000000+08:00",
+    "flow_id": 1000000196,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 16937,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 6907
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:22.000000+08:00",
+    "flow_id": 1000000025,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 30764,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "783,519,372,1022,408,407,571,750,668,270",
+      "version": "1.2",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:43.000000+08:00",
+    "flow_id": 1000000106,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 3118,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 9937
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:14.000000+08:00",
+    "flow_id": 1000000137,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 5038,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 1116
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:01.000000+08:00",
+    "flow_id": 1000000064,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 44399,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 9998
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:21.000000+08:00",
+    "flow_id": 1000000024,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 29995,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 6629
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:06.000000+08:00",
+    "flow_id": 1000000129,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 26501,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "985,810,319,381,467,461,372,278,419,1018",
+      "version": "1.2",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:44.000000+08:00",
+    "flow_id": 1000000167,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 13837,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:13.000000+08:00",
+    "flow_id": 1000000136,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 55974,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "test.local",
+      "rtype": "A",
+      "tx_id": 5340
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:47.000000+08:00",
+    "flow_id": 1000000050,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 38850,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 8015
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:18.000000+08:00",
+    "flow_id": 1000000081,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 20509,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:01.000000+08:00",
+    "flow_id": 1000000004,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 57813,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:43.000000+08:00",
+    "flow_id": 1000000046,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 30838,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:56.000000+08:00",
+    "flow_id": 1000000059,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 46345,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:00.000000+08:00",
+    "flow_id": 1000000003,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 39820,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:09.000000+08:00",
+    "flow_id": 1000000072,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 1218,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:19.000000+08:00",
+    "flow_id": 1000000142,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 47185,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "test.local",
+      "rtype": "A",
+      "tx_id": 1824
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:38.000000+08:00",
+    "flow_id": 1000000041,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 26114,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 9451
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:16.000000+08:00",
+    "flow_id": 1000000019,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 48342,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 2565
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:41.000000+08:00",
+    "flow_id": 1000000164,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 39144,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 1479
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:54.000000+08:00",
+    "flow_id": 1000000177,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 20186,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "865,858,805,783,848,442,998,823,690,1012",
+      "version": "1.2",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:04.000000+08:00",
+    "flow_id": 1000000127,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 23849,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "574,794,312,845,354,634,456,634,887,273",
+      "version": "1.2",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:19.000000+08:00",
+    "flow_id": 1000000082,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 13818,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "991,885,367,398,875,403,764,382,695,692",
+      "version": "1.2",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:07.000000+08:00",
+    "flow_id": 1000000130,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 58215,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "529,504,964,563,288,830,571,962,700,940",
+      "version": "1.3",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:40.000000+08:00",
+    "flow_id": 1000000163,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 19287,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:15.000000+08:00",
+    "flow_id": 1000000198,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 55064,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:46.000000+08:00",
+    "flow_id": 1000000109,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 21439,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:36.000000+08:00",
+    "flow_id": 1000000159,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 56413,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "501,774,1005,670,318,803,958,830,640,762",
+      "version": "1.3",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:22.000000+08:00",
+    "flow_id": 1000000085,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 56604,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:23.000000+08:00",
+    "flow_id": 1000000026,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 19445,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:55.000000+08:00",
+    "flow_id": 1000000058,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 37414,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 1388
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:28.000000+08:00",
+    "flow_id": 1000000031,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 37752,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 7474
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:41.000000+08:00",
+    "flow_id": 1000000104,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 54163,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:34.000000+08:00",
+    "flow_id": 1000000037,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 13115,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 4180
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:07.000000+08:00",
+    "flow_id": 1000000190,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 54470,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "777,275,627,398,535,528,404,949,638,749",
+      "version": "1.3",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:10.000000+08:00",
+    "flow_id": 1000000133,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 29834,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 9875
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:45.000000+08:00",
+    "flow_id": 1000000048,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 30989,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "341,290,626,310,943,564,888,858,833,944",
+      "version": "1.2",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:22.000000+08:00",
+    "flow_id": 1000000145,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 24973,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "396,792,961,759,327,769,271,316,779,826",
+      "version": "1.2",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:05.000000+08:00",
+    "flow_id": 1000000068,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 58091,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 6904
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:57.000000+08:00",
+    "flow_id": 1000000060,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 23320,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "583,447,386,816,300,459,356,805,842,701",
+      "version": "1.3",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:10.000000+08:00",
+    "flow_id": 1000000073,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 11967,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:37.000000+08:00",
+    "flow_id": 1000000100,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 2142,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:30.000000+08:00",
+    "flow_id": 1000000093,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 3696,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:03.000000+08:00",
+    "flow_id": 1000000186,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 15144,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:53.000000+08:00",
+    "flow_id": 1000000116,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 63470,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "816,627,868,919,639,483,979,774,973,426",
+      "version": "1.3",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:12.000000+08:00",
+    "flow_id": 1000000135,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 4723,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 6043
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:03.000000+08:00",
+    "flow_id": 1000000006,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 30307,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 5263
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:09.000000+08:00",
+    "flow_id": 1000000012,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 46811,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:20.000000+08:00",
+    "flow_id": 1000000023,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 60925,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "477,415,973,682,952,708,610,433,383,522",
+      "version": "1.2",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:36.000000+08:00",
+    "flow_id": 1000000099,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 32032,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 5640
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:01.000000+08:00",
+    "flow_id": 1000000184,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 53098,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:46.000000+08:00",
+    "flow_id": 1000000049,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 15023,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:08.000000+08:00",
+    "flow_id": 1000000011,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 61975,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "858,662,618,494,741,851,767,1015,976,669",
+      "version": "1.3",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:48.000000+08:00",
+    "flow_id": 1000000051,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 41627,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:13.000000+08:00",
+    "flow_id": 1000000076,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 6882,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:16.000000+08:00",
+    "flow_id": 1000000199,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 63263,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 1634
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:08.000000+08:00",
+    "flow_id": 1000000191,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 64592,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 4707
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:58.000000+08:00",
+    "flow_id": 1000000061,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 9920,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:16.000000+08:00",
+    "flow_id": 1000000139,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 56244,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "393,432,824,859,764,373,303,939,320,823",
+      "version": "1.3",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:27.000000+08:00",
+    "flow_id": 1000000030,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 56224,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "478,546,382,964,262,837,510,868,429,1023",
+      "version": "1.3",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:35.000000+08:00",
+    "flow_id": 1000000038,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 14818,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:24.000000+08:00",
+    "flow_id": 1000000087,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 33626,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:52.000000+08:00",
+    "flow_id": 1000000055,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 8442,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "850,654,424,707,711,862,862,807,263,337",
+      "version": "1.2",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:23.000000+08:00",
+    "flow_id": 1000000146,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 39407,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 9363
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:33.000000+08:00",
+    "flow_id": 1000000096,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 1650,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "316,744,281,848,499,576,981,768,783,609",
+      "version": "1.2",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:30.000000+08:00",
+    "flow_id": 1000000153,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 38662,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "819,538,534,577,923,377,279,744,1022,353",
+      "version": "1.2",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:06.000000+08:00",
+    "flow_id": 1000000069,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 49579,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "903,614,591,823,330,935,312,881,729,572",
+      "version": "1.2",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:10.000000+08:00",
+    "flow_id": 1000000193,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 33588,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:53.000000+08:00",
+    "flow_id": 1000000176,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 39366,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "test.local",
+      "rtype": "A",
+      "tx_id": 4687
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:10.000000+08:00",
+    "flow_id": 1000000013,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 32490,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 3674
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:07.000000+08:00",
+    "flow_id": 1000000070,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 21295,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:32.000000+08:00",
+    "flow_id": 1000000035,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 38027,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "test.local",
+      "rtype": "A",
+      "tx_id": 1877
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:11.000000+08:00",
+    "flow_id": 1000000134,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 4851,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "714,769,317,507,540,873,725,664,862,803",
+      "version": "1.3",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:51.000000+08:00",
+    "flow_id": 1000000174,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 48674,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:30.000000+08:00",
+    "flow_id": 1000000033,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 26366,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:21.000000+08:00",
+    "flow_id": 1000000144,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 57992,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "378,583,729,438,442,840,781,815,519,694",
+      "version": "1.2",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:27.000000+08:00",
+    "flow_id": 1000000150,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 18480,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 6103
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:15.000000+08:00",
+    "flow_id": 1000000138,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 7862,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:50.000000+08:00",
+    "flow_id": 1000000053,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 7863,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "954,895,382,556,907,801,329,511,885,386",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:02.000000+08:00",
+    "flow_id": 1000000185,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 44143,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "1018,345,612,892,953,710,550,954,392,276",
+      "version": "1.3",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:44.000000+08:00",
+    "flow_id": 1000000107,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 14111,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 8085
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:12.000000+08:00",
+    "flow_id": 1000000075,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 28618,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "823,300,320,849,725,507,930,688,436,730",
+      "version": "1.2",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:45.000000+08:00",
+    "flow_id": 1000000168,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 56257,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 7688
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:37.000000+08:00",
+    "flow_id": 1000000040,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 13111,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "483,911,358,689,333,492,896,679,625,512",
+      "version": "1.3",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:14.000000+08:00",
+    "flow_id": 1000000017,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 47670,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:56.000000+08:00",
+    "flow_id": 1000000179,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 44308,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:15.000000+08:00",
+    "flow_id": 1000000018,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 59137,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 3323
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:31.000000+08:00",
+    "flow_id": 1000000154,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 42415,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "779,737,653,452,741,746,538,433,897,681",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:58.000000+08:00",
+    "flow_id": 1000000121,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 7739,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:00:00.000000+08:00",
+    "flow_id": 1000000000,
+    "event_type": "tls",
+    "src_ip": "192.168.10.5",
+    "src_port": 52345,
+    "dest_ip": "10.0.0.5",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "769,4865-4866-49195-49196-52393-52392-49199-49200-157-159-49171-49172-61-60-53-47-10",
+      "version": "1.2",
+      "sni": "shadowghost.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:31.000000+08:00",
+    "flow_id": 1000000094,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 33568,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 2470
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:00.000000+08:00",
+    "flow_id": 1000000183,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 21649,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "406,287,290,443,298,928,542,696,289,447",
+      "version": "1.3",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:29.000000+08:00",
+    "flow_id": 1000000092,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 49502,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:38.000000+08:00",
+    "flow_id": 1000000101,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 16337,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "344,765,653,400,369,511,711,731,576,365",
+      "version": "1.2",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:51.000000+08:00",
+    "flow_id": 1000000054,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 57182,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:21.000000+08:00",
+    "flow_id": 1000000084,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 14858,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 8194
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:05.000000+08:00",
+    "flow_id": 1000000008,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 5872,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 8451
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:42.000000+08:00",
+    "flow_id": 1000000105,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 50174,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "553,951,325,373,423,432,335,743,649,909",
+      "version": "1.2",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:06.000000+08:00",
+    "flow_id": 1000000009,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 63031,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "816,753,265,861,565,970,867,968,339,373",
+      "version": "1.2",
+      "sni": "noise.example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:17.000000+08:00",
+    "flow_id": 1000000020,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 11972,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:31.000000+08:00",
+    "flow_id": 1000000034,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 3355,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "951,739,344,717,384,860,979,339,678,941",
+      "version": "1.2",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:40.000000+08:00",
+    "flow_id": 1000000043,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 8126,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 9677
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:11.000000+08:00",
+    "flow_id": 1000000014,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 22099,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:54.000000+08:00",
+    "flow_id": 1000000117,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 27945,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 7450
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:08.000000+08:00",
+    "flow_id": 1000000071,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 38810,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:26.000000+08:00",
+    "flow_id": 1000000089,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 10293,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 3566
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:48.000000+08:00",
+    "flow_id": 1000000171,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 1065,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:38.000000+08:00",
+    "flow_id": 1000000161,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 3084,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:23.000000+08:00",
+    "flow_id": 1000000086,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 50061,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "test.local",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:25.000000+08:00",
+    "flow_id": 1000000088,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 45933,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 8958
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:47.000000+08:00",
+    "flow_id": 1000000110,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 59079,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 5605
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:54.000000+08:00",
+    "flow_id": 1000000057,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 47922,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "445,1017,383,1018,421,474,366,977,836,970",
+      "version": "1.2",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:17.000000+08:00",
+    "flow_id": 1000000140,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 24559,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "599,434,269,495,341,353,482,996,445,329",
+      "version": "1.2",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:24.000000+08:00",
+    "flow_id": 1000000147,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 38011,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 6777
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:00.000000+08:00",
+    "flow_id": 1000000063,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 64354,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "761,844,280,742,943,291,596,749,480,799",
+      "version": "1.3",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:32.000000+08:00",
+    "flow_id": 1000000155,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 23997,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "405,330,879,312,316,402,740,365,977,934",
+      "version": "1.2",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:00:10.000000+08:00",
+    "flow_id": 1000000001,
+    "event_type": "http",
+    "src_ip": "192.168.10.6",
+    "src_port": 52346,
+    "dest_ip": "10.0.0.5",
+    "dest_port": 80,
+    "http": {
+      "hostname": "shadowghost.org",
+      "url": "/payload1.exe",
+      "http_method": "GET",
+      "user_agent": "ShadowBot/1.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:57.000000+08:00",
+    "flow_id": 1000000120,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 64426,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "498,967,482,268,427,934,353,514,606,830",
+      "version": "1.2",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:58.000000+08:00",
+    "flow_id": 1000000181,
+    "event_type": "dns",
+    "src_ip": "192.168.10.10",
+    "src_port": 31338,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 4030
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:39.000000+08:00",
+    "flow_id": 1000000102,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 21882,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:55.000000+08:00",
+    "flow_id": 1000000178,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 26515,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "861,905,301,684,968,377,544,782,364,374",
+      "version": "1.3",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:33.000000+08:00",
+    "flow_id": 1000000036,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 44469,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 3179
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:00.000000+08:00",
+    "flow_id": 1000000123,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 32362,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "test.local",
+      "rtype": "A",
+      "tx_id": 1421
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:41.000000+08:00",
+    "flow_id": 1000000044,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 31604,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "example.com",
+      "rtype": "A",
+      "tx_id": 6145
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:14.000000+08:00",
+    "flow_id": 1000000197,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 5476,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "343,338,765,931,469,841,257,907,563,627",
+      "version": "1.3",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:59.000000+08:00",
+    "flow_id": 1000000122,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 55044,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "example.com",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Wget/1.21"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:15.000000+08:00",
+    "flow_id": 1000000078,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 13437,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 4162
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:02.000000+08:00",
+    "flow_id": 1000000125,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 39375,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "646,502,889,891,597,816,735,629,696,751",
+      "version": "1.3",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:57.000000+08:00",
+    "flow_id": 1000000180,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 43172,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "420,937,706,405,977,788,381,939,324,918",
+      "version": "1.3",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:46.000000+08:00",
+    "flow_id": 1000000169,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 4658,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:51.000000+08:00",
+    "flow_id": 1000000114,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 38977,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/index.html",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:53.000000+08:00",
+    "flow_id": 1000000056,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 30027,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "896,679,734,265,430,989,627,537,676,432",
+      "version": "1.2",
+      "sni": "test.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:04:11.000000+08:00",
+    "flow_id": 1000000194,
+    "event_type": "dns",
+    "src_ip": "192.168.10.12",
+    "src_port": 24133,
+    "dest_ip": "8.8.8.8",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 4001
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:42.000000+08:00",
+    "flow_id": 1000000045,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 36024,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "389,584,536,977,414,314,465,747,518,613",
+      "version": "1.2",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:35.000000+08:00",
+    "flow_id": 1000000158,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 51133,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "api.service.org",
+      "rtype": "A",
+      "tx_id": 1142
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:45.000000+08:00",
+    "flow_id": 1000000108,
+    "event_type": "tls",
+    "src_ip": "192.168.10.12",
+    "src_port": 32694,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "315,597,972,989,667,418,319,811,365,971",
+      "version": "1.3",
+      "sni": "example.com"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:36.000000+08:00",
+    "flow_id": 1000000039,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 27853,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 8977
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:42.000000+08:00",
+    "flow_id": 1000000165,
+    "event_type": "http",
+    "src_ip": "192.168.10.10",
+    "src_port": 14963,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:29.000000+08:00",
+    "flow_id": 1000000152,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 15173,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "904,607,823,988,530,709,597,580,726,780",
+      "version": "1.2",
+      "sni": "api.service.org"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:07.000000+08:00",
+    "flow_id": 1000000010,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 34934,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "company.local",
+      "url": "/dashboard",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:26.000000+08:00",
+    "flow_id": 1000000029,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 42270,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "company.local",
+      "rtype": "A",
+      "tx_id": 2150
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:01:29.000000+08:00",
+    "flow_id": 1000000032,
+    "event_type": "http",
+    "src_ip": "192.168.10.12",
+    "src_port": 52892,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 80,
+    "http": {
+      "hostname": "api.service.org",
+      "url": "/home",
+      "http_method": "GET",
+      "user_agent": "curl/7.85"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:03:18.000000+08:00",
+    "flow_id": 1000000141,
+    "event_type": "tls",
+    "src_ip": "192.168.10.10",
+    "src_port": 61915,
+    "dest_ip": "10.0.0.10",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "440,822,770,510,603,694,348,351,303,1001",
+      "version": "1.2",
+      "sni": "company.local"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:50.000000+08:00",
+    "flow_id": 1000000113,
+    "event_type": "dns",
+    "src_ip": "192.168.10.11",
+    "src_port": 33912,
+    "dest_ip": "8.8.4.4",
+    "dest_port": 53,
+    "dns": {
+      "rrname": "noise.example.com",
+      "rtype": "A",
+      "tx_id": 6527
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:04.000000+08:00",
+    "flow_id": 1000000067,
+    "event_type": "http",
+    "src_ip": "192.168.10.11",
+    "src_port": 7996,
+    "dest_ip": "10.0.0.11",
+    "dest_port": 80,
+    "http": {
+      "hostname": "noise.example.com",
+      "url": "/login",
+      "http_method": "GET",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  {
+    "timestamp": "2025-09-10T15:02:16.000000+08:00",
+    "flow_id": 1000000079,
+    "event_type": "tls",
+    "src_ip": "192.168.10.11",
+    "src_port": 37451,
+    "dest_ip": "10.0.0.12",
+    "dest_port": 443,
+    "tls": {
+      "ja3": "727,872,379,787,692,736,688,937,388,720",
+      "version": "1.3",
+      "sni": "api.service.org"
+    }
+  }
+]
