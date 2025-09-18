@@ -9,7 +9,7 @@ body {
     max-width: 1000px;
     margin: 10px auto;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     color: #cf6cfa;
 }
 .wrapper {
@@ -160,6 +160,9 @@ body {
 
 
 @media (max-width:600px) {
+    body {
+        padding: 15px !important;
+    }
     .challenge {
         padding: 20px;
     }
@@ -172,6 +175,22 @@ body {
     }
     .moreBtn2 {
         margin-top:0px !important;
+    }
+    .title {
+        flex-direction: column !important;
+        gap: 16px !important;
+        align-items: flex-start !important;
+        padding:20px;
+        margin-top:20px;
+    }
+    .title img {
+        max-width: 100px !important;
+        max-height: 100px !important;
+        flex: none !important;
+    }
+    .title > div {
+        width: 100% !important;
+        flex: none !important;
     }
 }
 
