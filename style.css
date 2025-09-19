@@ -7,7 +7,7 @@ body {
 }
 .title{
     max-width: 1000px;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 10px;
     text-align: left;
     color: #cf6cfa;
@@ -78,7 +78,9 @@ body {
 .moreBtn {
     margin-right:10px;
 }
-
+.moreBtn2 {
+    margin-right:0px;
+}
 .checkFlag {
     margin-top:20px;
 }
@@ -164,7 +166,13 @@ body {
         padding: 15px !important;
     }
     .challenge {
-        padding: 20px;
+        padding: 15px 10px;
+        margin-top: 10px !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .wrapper {
+        padding: 10px !important
     }
     .checkFlag input {
         width: 90%;
@@ -173,15 +181,15 @@ body {
     .challName {
         font-size: 22px !important;
     }
-    .moreBtn2 {
-        margin-top:0px !important;
+    .download button {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
     }
     .title {
         flex-direction: column !important;
         gap: 16px !important;
         align-items: flex-start !important;
         padding:20px;
-        margin-top:20px;
     }
     .title img {
         max-width: 100px !important;
